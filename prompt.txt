@@ -1,0 +1,249 @@
+1. What You’re Actually Building
+
+Your app is essentially:
+
+User Symptoms + Exceptions
+        ↓
+Decision Engine
+        ↓
+OTC Medication Recommendations
+        ↓
+Health Canada Drug Data
+
+Example:
+
+Symptoms:
+- headache
+- fever
+
+Exceptions:
+- allergic to ibuprofen
+- high blood pressure
+
+Result:
+1. Acetaminophen
+2. Aspirin
+3. Naproxen
+
+This is NOT a diagnosis app.
+
+It is:
+
+a symptom relief assistant
+focused on OTC medications only
+rule-based
+informational
+
+That distinction matters legally and technically.
+
+2. Start Simpler Than You Think
+
+Do NOT start with:
+
+AI
+machine learning
+medical diagnosis
+mobile apps
+authentication
+databases
+fancy UI
+
+Start with:
+
+A web page
+→ user enters symptoms
+→ app recommends OTC drugs
+
+That’s it.
+
+3. The Best Beginner Stack For You
+
+Since you want Cursor to help you code, use the simplest modern stack:
+
+Part	Recommendation	Why
+Frontend	React + Next.js	Cursor handles this very well
+Backend	Next.js API routes	Same project = simpler
+Styling	Tailwind CSS	Easy modern UI
+Data	JSON files initially	No database needed
+Deployment	Vercel	One-click deployment
+
+This is realistic for a beginner.
+
+4. What You Need To Learn First
+
+You do NOT need to become a full software engineer before starting.
+
+You only need these basics:
+
+A. How the Web Works
+
+Learn:
+
+frontend = what users see
+backend = logic/server
+API = way apps communicate
+JSON = data format
+
+Example JSON:
+
+{
+  "symptoms": ["headache", "fever"],
+  "allergies": ["ibuprofen"]
+}
+
+This is probably the single most important thing to understand first.
+
+B. Basic JavaScript
+
+You do NOT need advanced programming.
+
+You need:
+
+variables
+arrays
+objects
+functions
+if statements
+
+Example:
+
+const symptoms = ["headache", "fever"];
+
+if (symptoms.includes("headache")) {
+  console.log("Recommend acetaminophen");
+}
+
+That’s already enough to build an MVP.
+
+C. React Basics
+
+You mainly need:
+
+components
+state
+inputs
+buttons
+
+Example mental model:
+
+User types in textbox
+→ React stores input
+→ button clicked
+→ app calculates recommendation
+→ results displayed
+5. The Smartest Beginner Strategy
+
+Do NOT try to “learn programming first.”
+
+Instead:
+
+Build → get stuck → learn the missing concept
+
+That’s how modern developers using AI tools work now.
+
+Cursor becomes:
+
+your coding tutor
+pair programmer
+debugger
+explainer
+6. Your Development Roadmap
+PHASE 1 — Learn Enough To Start (1–3 days)
+
+Learn:
+
+what HTML/CSS/JS are
+what React is
+how APIs work
+what JSON is
+
+Good beginner searches:
+
+“JavaScript for beginners”
+“React crash course”
+“What is an API”
+“JSON explained”
+
+Do not over-study.
+
+PHASE 2 — Build The Simplest Version (3–7 days)
+
+Goal:
+
+Type symptoms
+↓
+Get recommendations
+
+Features:
+
+symptom input
+allergy input
+hardcoded recommendation rules
+top 3 results
+
+NO API yet.
+
+Example rule:
+
+if (symptoms.includes("headache")) {
+  recommendations.push("acetaminophen");
+}
+
+This phase teaches:
+
+inputs
+logic
+displaying results
+
+Most important phase.
+
+PHASE 3 — Add Drug Database (2–5 days)
+
+Now connect:
+
+Health Canada API
+
+Learn:
+
+fetch()
+async/await
+API requests
+
+Example:
+
+const response = await fetch(url);
+const data = await response.json();
+
+You’ll fetch:
+
+approved products
+drug details
+ingredients
+PHASE 4 — Add Safety Logic (important)
+
+Now improve:
+
+allergy filtering
+contraindications
+duplicate ingredients
+age restrictions
+
+Example:
+
+if (allergies.includes("ibuprofen")) {
+  remove ibuprofen products
+}
+
+This is where the app becomes genuinely useful.
+
+PHASE 5 — Improve UX
+
+Add:
+
+cleaner UI
+loading indicators
+badges
+mobile responsiveness
+search suggestions
+
+Only AFTER the logic works.

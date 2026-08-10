@@ -1,0 +1,206 @@
+{
+  "medications": [
+    {
+      "id": "acetaminophen",
+      "brandName": "Tylenol",
+      "genericName": "Acetaminophen",
+      "aliases": ["paracetamol", "tylenol", "acetaminophen"],
+      "description": "Pain and fever relief. Generally gentler on the stomach than NSAIDs.",
+      "indications": [
+        "headache",
+        "migraine",
+        "fever",
+        "pain",
+        "sore throat",
+        "body ache",
+        "muscle ache",
+        "toothache",
+        "earache",
+        "menstrual cramps",
+        "arthritis pain"
+      ]
+    },
+    {
+      "id": "ibuprofen",
+      "brandName": "Advil",
+      "genericName": "Ibuprofen",
+      "aliases": ["advil", "motrin", "ibuprofen"],
+      "description": "NSAID for pain, fever, and inflammation.",
+      "indications": [
+        "headache",
+        "migraine",
+        "fever",
+        "pain",
+        "inflammation",
+        "sore throat",
+        "body ache",
+        "muscle ache",
+        "back pain",
+        "joint pain",
+        "menstrual cramps",
+        "toothache"
+      ]
+    },
+    {
+      "id": "aspirin",
+      "brandName": "Bayer Aspirin",
+      "genericName": "Aspirin",
+      "aliases": ["asa", "acetylsalicylic acid", "aspirin", "bayer"],
+      "description": "NSAID for pain and fever. Avoid in children and some cardiovascular conditions.",
+      "indications": [
+        "headache",
+        "fever",
+        "pain",
+        "sore throat",
+        "body ache",
+        "inflammation",
+        "muscle ache"
+      ]
+    },
+    {
+      "id": "naproxen",
+      "brandName": "Aleve",
+      "genericName": "Naproxen",
+      "aliases": ["aleve", "naproxen"],
+      "description": "Longer-acting NSAID for pain and inflammation.",
+      "indications": [
+        "pain",
+        "headache",
+        "muscle ache",
+        "back pain",
+        "joint pain",
+        "inflammation",
+        "menstrual cramps",
+        "arthritis pain",
+        "body ache"
+      ]
+    },
+    {
+      "id": "diphenhydramine",
+      "brandName": "Benadryl",
+      "genericName": "Diphenhydramine",
+      "aliases": ["benadryl", "diphenhydramine"],
+      "description": "Antihistamine that may help with allergy symptoms and sleep.",
+      "indications": [
+        "allergies",
+        "hay fever",
+        "runny nose",
+        "sneezing",
+        "itchy eyes",
+        "itchy skin",
+        "hives",
+        "rash",
+        "insomnia",
+        "nighttime cough"
+      ]
+    },
+    {
+      "id": "loratadine",
+      "brandName": "Claritin",
+      "genericName": "Loratadine",
+      "aliases": ["claritin", "loratadine"],
+      "description": "Non-drowsy antihistamine for allergy symptoms.",
+      "indications": [
+        "allergies",
+        "hay fever",
+        "runny nose",
+        "sneezing",
+        "itchy eyes",
+        "itchy nose",
+        "watery eyes",
+        "seasonal allergies"
+      ]
+    },
+    {
+      "id": "dextromethorphan",
+      "brandName": "Robitussin DM",
+      "genericName": "Dextromethorphan",
+      "aliases": ["robitussin", "delsym", "dxm", "dextromethorphan"],
+      "description": "Cough suppressant for dry cough.",
+      "indications": [
+        "cough",
+        "dry cough",
+        "hacking cough",
+        "persistent cough",
+        "night cough"
+      ]
+    },
+    {
+      "id": "guaifenesin",
+      "brandName": "Mucinex",
+      "genericName": "Guaifenesin",
+      "aliases": ["mucinex", "guaifenesin"],
+      "description": "Expectorant that helps loosen chest congestion.",
+      "indications": [
+        "cough",
+        "chest congestion",
+        "mucus",
+        "phlegm",
+        "productive cough",
+        "thick mucus",
+        "bronchial congestion"
+      ]
+    },
+    {
+      "id": "loperamide",
+      "brandName": "Imodium",
+      "genericName": "Loperamide",
+      "aliases": ["imodium", "loperamide"],
+      "description": "Anti-diarrheal for short-term diarrhea relief.",
+      "indications": [
+        "diarrhea",
+        "loose stool",
+        "frequent bowel movements",
+        "traveler's diarrhea"
+      ]
+    },
+    {
+      "id": "bismuth subsalicylate",
+      "brandName": "Pepto-Bismol",
+      "genericName": "Bismuth subsalicylate",
+      "aliases": ["pepto-bismol", "pepto bismol", "pepto", "bismuth"],
+      "description": "May help with upset stomach, nausea, and diarrhea.",
+      "indications": [
+        "nausea",
+        "upset stomach",
+        "stomach pain",
+        "indigestion",
+        "diarrhea",
+        "heartburn",
+        "bloating",
+        "gas"
+      ]
+    },
+    {
+      "id": "calcium carbonate",
+      "brandName": "Tums",
+      "genericName": "Calcium carbonate",
+      "aliases": ["tums", "antacid", "calcium carbonate"],
+      "description": "Antacid for heartburn and indigestion.",
+      "indications": [
+        "heartburn",
+        "acid reflux",
+        "indigestion",
+        "upset stomach",
+        "sour stomach",
+        "stomach acid"
+      ]
+    },
+    {
+      "id": "pseudoephedrine",
+      "brandName": "Sudafed",
+      "genericName": "Pseudoephedrine",
+      "aliases": ["sudafed", "pseudoephedrine"],
+      "description": "Decongestant for nasal congestion. Use caution with high blood pressure.",
+      "indications": [
+        "nasal congestion",
+        "stuffy nose",
+        "sinus pressure",
+        "sinus congestion",
+        "blocked nose",
+        "congestion",
+        "cold congestion"
+      ]
+    }
+  ]
+}

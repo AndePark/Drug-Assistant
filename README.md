@@ -8,7 +8,7 @@ A simple, rule-based web app that suggests over-the-counter (OTC) medications ba
 - **iOS:** Expo (React Native) in [`mobile/`](mobile/)
 - **Data:** JSON files for medication data and recommendation rules
 
-## Phase 2 (current)
+## Phase 2 
 
 - Symptom input
 - Allergy / exception input
